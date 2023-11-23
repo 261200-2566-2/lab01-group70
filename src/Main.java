@@ -8,7 +8,7 @@ public class Main {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
         Scanner sc = new Scanner(System.in);
-        System.out.print("ใส่จำนวนตัวเลขที่ต้องการเรียง");
+        System.out.print("ใส่จำนวนตัวเลขที่ต้องการเรียง : ");
         int n = sc.nextInt();
         int[] array = new int[n];
         for(int i = 0 ; i < n; i++){
@@ -20,15 +20,6 @@ public class Main {
         for(int arr : array ){
             System.out.println(arr);
         }
-
-
-
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-
-
     }
     public static void SortArray(int[]arr){
         Arrays.sort(arr);
